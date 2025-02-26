@@ -193,10 +193,10 @@ body{line-height: 1.5; font-size: 1.6rem; font-family: 'Roboto Condensed', 'Noto
 
 
       .history .hi_right{}
-      .history .hi_right .grap{position: absolute; left: 55%; top: 27%;}
+      .history .hi_right .grap{position: absolute; left: 50%; top: 27%;}
       .history .hi_right .grap_right li{ font-size: 2rem; }
 
-      .history .hi_right .grap_right{position: absolute; right: 5%; top: 28.5%;}
+      .history .hi_right .grap_right{position: absolute; right: 3%; top: 28.5%;}
 
 
       .history .hi_right .grap_right li:nth-child(1){padding-bottom: 150px;}
