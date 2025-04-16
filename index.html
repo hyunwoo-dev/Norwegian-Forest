@@ -411,9 +411,9 @@
       if (currentScrollY === 0) {
         inner.style.background = 'transparent'; // 맨 위에 있을 때는 배경이 투명하게
       } else {
-        inner.style.background = 'rgba(0,0,0,0.6)'; // 위로 스크롤 시 배경이 어두워짐
+        inner.style.background = 'rgba(0,0,0,0.8)'; // 위로 스크롤 시 배경이 어두워짐
       }
-      inner.style.transform = 'translateY(-40%)'; // 위로 스크롤 시 .inner 보이기
+      inner.style.transform = 'translateY(-25%)'; // 위로 스크롤 시 .inner 보이기
     }
   
     lastScrollY = currentScrollY;
@@ -429,7 +429,7 @@
     if (window.scrollY === 0) {
       inner.style.background = 'transparent';
     } else {
-      inner.style.background = 'rgba(0,0,0,0.6)';
+      inner.style.background = 'rgba(0,0,0,0.8)';
     }
   });
   
